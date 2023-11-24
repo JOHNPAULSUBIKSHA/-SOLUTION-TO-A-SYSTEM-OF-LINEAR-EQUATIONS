@@ -15,17 +15,20 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 ```
-#Program to find the rank of a matrix.
+#Program to find the solution for the given linear equations.
 #Developed by: John Paul J
 #RegisterNumber:23011778
 import numpy as np
-a=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
-b=np.linalg.matrix_rank(a)
-print(b)
-```
+A=[[1,-3],[3,1]]
+B=[0,10]
+C=np.linalg.solve(A,B)
+print(C)
 
-## Output:
-![output](/Screenshot%202023-11-24%20233310%20-%20Copy.png)
+```
+## Output
+
+![output](/img1.png)
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
